@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+            <label for="name">Name: </label>
+            <br>
+        <input type="text" name="name" id="name" value="Enter your name" onfocus="this.value=''">
+           
+        <br>
+        <br>
+            <label for="email">Email:</label>
+            <br>
+        <input type="email" name="email" id="email" value="Enter your email" onfocus="this.value=''">
+            
+        <br>
+        <br>
+            <label for="age">Age:</label>
+            <br>
+        <input type="number" name="age" id="age" value="0" min="0" max="100" onfocus="this.value=''">
+            
+        <br>
+        <br>
+        <label id="description">Wich option best describes you?</label>
+        <br>
+        <select name="description">
+            <option id="description" value="student" selected>Student</option>
+            <option id="description" value="employee">Employee</option>
+            <option id="description" value="other">Other</option>
+        </select>
+        <br>
+        <br>
+        <div>
+            <label>Would you recommend this site?</label>
+            <br>
+            <input type="radio" id="recommend" name="recommend" value="yes" checked>
+            <label for="yes">Yes</label>
+            <input type="radio" id="recommend" name="recommend" value="no">
+            <label for="no">No</label>
+            <input type="radio" id="recommend" name="recommend" value="maybe">
+            <label for="maybe">Maybe</label>
+        <br>
+        <br>  
+        </div>
+        <div>
+            <label>Languages and Frameworks known (Check all that apply)</label>
+            
+            <br>
+            <input type="checkbox" id="C" value="C"> 
+            <label for="C">C</label>
+            
+            <br>
+            <input type="checkbox" id="C++" value="C++">
+            <label for="C++">C++</label>
+
+            <br>
+            <input type="checkbox" id="C#" value="C#"> 
+            <label for="C#">C#</label>
+            
+            <br>
+            <input type="checkbox" id="Java" value="Java">
+            <label for="Java">Java</label>
+
+            <br>
+            <input type="checkbox" id="Phyton" value="Phyton"> 
+            <label for="Phyton">Phyton</label>
+            
+            <br>
+            <input type="checkbox" id="JavaScript" value="JavaScript">
+            <label for="JavaScript">JavaScript</label>
+
+            <br>
+            <input type="checkbox" id="React" value="React"> 
+            <label for="React">React</label>
+            
+            <br>
+            <input type="checkbox" id="Angular" value="Angular">
+            <label for="Angular">Angular</label>
+
+            <br>
+            <input type="checkbox" id="Django" value="Django">
+            <label for="Django">Django</label>
+
+            <br>
+            <input type="checkbox" id="Vue" value="Vue">
+            <label for="Vue">Angular</label>
+             
+        </div>
+        <label for="about">About:</label>
+            <textarea id="about"></textarea>
+    </form>
+</body>
+</html>
