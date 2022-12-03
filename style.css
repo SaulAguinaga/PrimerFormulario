@@ -1,0 +1,18 @@
+body{
+    background-color: green;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+form{
+    padding: 2%;
+    background-color: white;
+    width: 40%;
+}
+#name, #age, #email, #about{
+    width: 95%;
+}
+#submit{
+    width: 95%;
+    background-color: green;
+}
